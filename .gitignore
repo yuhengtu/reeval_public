@@ -1,6 +1,6 @@
 data/
 result/
-gather_helm_data/helm_tables/
+gather_helm_data/helm_jsons/
 
 wandb/
 google-cloud-cli-linux-x86_64.tar.gz

@@ -82,6 +82,6 @@ if __name__ == "__main__":
                 results[col] = results[col].astype("float16")
     print("Started saving results")
     
-    output_dir = "../data/gather_helm_data"
+    output_dir = "../data"
     os.makedirs(output_dir, exist_ok=True)
     results.to_pickle(f"{output_dir}/long.pkl")

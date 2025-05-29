@@ -5,7 +5,7 @@
     "classic": {
         "babi_qa": "quasi_exact_match",
         "bbq": "quasi_exact_match",
-        "blimp": "exact_match",
+        "blimp": "",
         "bold": "",
         "boolq": "quasi_exact_match",
         "civil_comments": "quasi_exact_match",
@@ -20,7 +20,7 @@
         "ice": "",
         "imdb": "quasi_exact_match",
         "legal_support": "quasi_exact_match",
-        "lsat_qa": "",
+        "lsat_qa": "quasi_exact_match",
         "math": "",
         "mmlu": "",
         "msmarco": "",
