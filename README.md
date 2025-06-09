@@ -64,7 +64,7 @@ python cat_analysis.py
 # (Optional) Download Result
 
 
-To download the result folder of our paper, run:
+To download the `result/` folder:
 ```bash
 python download.py --folder result
 ```
@@ -89,3 +89,7 @@ python csv2matrix.py # -> data/resmat.pkl
 
 
 We describe the Rasch model as P = sigmoid($\theta$ - z) in the paper, but implement it as P = sigmoid($\theta$ + z) in the codebase. This is because [a well-known R library `mirt`](https://cran.r-project.org/web/packages/mirt/index.html) uses P = sigmoid($\theta$ + z), and we want to test our result with their output. As a result, in our codebase, a large $\theta$ denotes high ability, and a large z denotes an easy question.
+
+# Reference
+
+Our R-based synthetic adaptive testing experiment is based on github.com/AnyaWMa/ROAR-CAT-Public. 
